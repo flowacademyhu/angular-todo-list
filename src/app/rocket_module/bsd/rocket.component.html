@@ -1,0 +1,8 @@
+<button (click)="getDataFromServer()">Get data</button>
+
+<table>
+  <tr *ngFor="let row of rows">
+    <td>{{row.id}}</td>
+    <td>{{row.name}}</td>
+  </tr>
+</table>
